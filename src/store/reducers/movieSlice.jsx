@@ -12,7 +12,7 @@ export const movieSlice = createSlice({
         state.info = action.payload;
       },
     removeMovie: (state,action)=>{
-        state.info = null
+        state.info = null;
     }  
 
     }
